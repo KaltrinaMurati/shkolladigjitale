@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 import {PaperProvider,MD3LightTheme} from 'react-native-paper';
 import PaperExamples from './components/Paper';
-
+import Test from './components/test';
 
 
 const theme={
@@ -15,9 +15,9 @@ const theme={
 };
 export default function App() {
   return (
-   <PaperProvider theme={theme}>
-    <PaperExamples/>
-   </PaperProvider>
+   <View>
+    <Text/>
+   </View>
   );
 }
 
