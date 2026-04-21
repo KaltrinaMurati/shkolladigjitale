@@ -18,7 +18,7 @@ import {
   HelperText,
   FAB
 } from "react-native-paper";
-
+// komenti
 export default function Paper() {
 
   const [emri, setEmri] = useState("");
